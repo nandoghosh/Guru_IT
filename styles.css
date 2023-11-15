@@ -1,32 +1,52 @@
-.nav-background{
-    background: linear-gradient(to right, #0033cc 0%, #009933 100%);}
-.pri-btn{
+.nav-background {
+    background: linear-gradient(to right, #0033cc 0%, #009933 100%);
+}
+
+.pri-btn {
     text-decoration: none;
     background: linear-gradient(to right, #0000ff 0%, #0066ff 100%);
-    color: #FFFFFF; 
+    color: #FFFFFF;
     padding: 10px 30px;
     border-radius: 5px;
-    
+
 }
-.banner{
-    background-image: url(images/cover-3.jpg);
-    background-repeat: no-repeat;
-    height: 600px; 
-}
-.banner1{
+
+.banner {
     background-image: url(images/cover-3.jpg);
     background-repeat: no-repeat;
     height: 600px;
 }
 
-.card-pos{
-    margin-top: -120px;
-    
+.banner1 {
+    background-image: url(images/cover-3.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
 }
 
-.customer-background{
+.card-pos {
+    margin-top: -120px;
+
+}
+
+.customer-background {
     background: linear-gradient(to right, #000099 0%, #0099ff 100%);
 }
-.text-color{
+
+.text-color {
     color: #003366;
+}
+
+.dash-background {
+    height: 1650px;
+    background: linear-gradient(to right, #0033cc 0%, #009933 100%);
+}
+
+.dash-text {
+    padding-top: 650px;
+}
+
+@media only screen and (max-width: 600px) {
+    .dash-text {
+        padding-top: 10px;
+    }
 }
